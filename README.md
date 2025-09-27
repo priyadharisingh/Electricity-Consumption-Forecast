@@ -30,9 +30,9 @@ The data did contain outliers but we cannot remove them as on days with high tem
 4.	 Feature Creation:<br>
 Rolling Average column was created for the demand column. It contained 24-hour demand lags and 168 hours demand lag. This was done to understand the change in demand every 24 hour i.e. 1 day and every 168 hours i.e. 7 days or 1 week time interval. Rolling average play an important role in time series analysis. <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graphs were created to understand its change in demand over time., year, month, temperature.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graphs were created to understand its change in demand over time., year, month, temperature.<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correlation heatmap was created to understand the correction between all the variables and the columns that are not important are removed from the dataset.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correlation heatmap was created to understand the correction between all the variables and the columns that are not important are &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; removed from the dataset.
 
 5.	Model Creation and Forecasting:<br>
 XGBoostRegressor was used to create the machine learning model. This model forecasted the future consumption with 98% r2_score. This could also be seen in the actual vs predicted plotted line chart.
