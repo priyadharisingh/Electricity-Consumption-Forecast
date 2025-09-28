@@ -32,8 +32,7 @@ Rolling Average column was created for the demand column. It contained 24-hour d
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graphs were created to understand its change in demand over time., year, month, temperature.<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correlation heatmap was created to understand the correction between all the variables and the columns that are not important are 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; removed from the dataset.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correlation heatmap was created to understand the correction between all the variables and the columns that are not important are removed from the dataset.
 
 5.	Model Creation and Forecasting:<br>
 XGBoostRegressor was used to create the machine learning model. This model forecasted the future consumption with 98% r2_score. This could also be seen in the actual vs predicted plotted line chart.
